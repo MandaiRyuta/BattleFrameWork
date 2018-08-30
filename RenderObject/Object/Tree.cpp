@@ -23,6 +23,7 @@ void Tree::Draw()
 	std::cout << Buf.c_str() << std::endl;
 	std::cout << Buf2.c_str() << std::endl;
 	std::cout << Device.c_str() << std::endl;
+	std::cout << num_ << std::endl;
 }
 
 void Tree::Uninit()
